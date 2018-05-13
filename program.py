@@ -7,6 +7,7 @@ def main():
     show_header()
 
     service.download_info()
+    print('Working with total of {} episodes.'.format(service.get_latest_show_id()))
 
     display_results()
 
