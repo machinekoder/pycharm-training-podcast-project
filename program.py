@@ -2,6 +2,7 @@
 import service
 import random
 
+
 def main():
     show_header()
 
